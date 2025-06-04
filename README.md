@@ -11,6 +11,8 @@ This project demonstrates anti-ban tactics, custom swipes, and robust automation
 - Random swiping and delays for anti-ban
 - Easily customizable for future AI integration (e.g. using ChatGPT)
 
+[![Hinge Bot for Windows! - Automate Your Swipes with Appium + Python](https://img.youtube.com/vi/JE7tnCJB74g/0.jpg)](https://www.youtube.com/watch?v=JE7tnCJB74g)
+
 ---
 
 ## Requirements
