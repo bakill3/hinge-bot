@@ -3,9 +3,6 @@
 Cross-platform Hinge automation bot built with Appium and Python.
 Runs on Linux, macOS and Windows.
 
-# V1 Showcase:
-[![Hinge Bot — Automate Your Swipes with Appium + Python](https://img.youtube.com/vi/JE7tnCJB74g/0.jpg)](https://www.youtube.com/watch?v=JE7tnCJB74g)
-
 ---
 
 ## Disclaimer
@@ -16,6 +13,11 @@ This project was built for **educational purposes** to demonstrate mobile UI aut
 - No data is collected, stored or sent anywhere. Everything runs locally on your machine.
 - Use it responsibly and in line with [Hinge's Terms of Service](https://hinge.co/terms).
 - The author is not responsible for any account restrictions that may result from use.
+
+---
+
+## V1 Showcase:
+[![Hinge Bot — Automate Your Swipes with Appium + Python](https://img.youtube.com/vi/JE7tnCJB74g/0.jpg)](https://www.youtube.com/watch?v=JE7tnCJB74g)
 
 ---
 
