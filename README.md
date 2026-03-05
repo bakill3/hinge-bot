@@ -1,4 +1,4 @@
-# Hinge Bot
+# Hinge Bot V2
 
 Cross-platform Hinge automation bot built with Appium and Python.
 Runs on Linux, macOS and Windows.
