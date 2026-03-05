@@ -1,0 +1,8 @@
+# ─── Profile: Android Studio AVD (Linux / macOS / Windows) ───────────────────
+#
+# Use with: hinge-bot run --profile avd
+#
+# The emulator UDID is typically "emulator-5554" (or emulator-5556 for a second
+# instance).  Leave null to let `adb devices` auto-detect it.
+
+device_udid: null
