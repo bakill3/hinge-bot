@@ -1,0 +1,39 @@
+# ─── Hinge Bot — default configuration ───────────────────────────────────────
+#
+# All values here serve as the base.  Profile YAML files (avd.yaml, memu.yaml)
+# override only the keys they need.  Environment variables and CLI flags have
+# the highest precedence (see .env.example).
+
+# Appium server URL (no trailing slash)
+appium_server_url: "http://127.0.0.1:4723"
+
+# ADB device UDID.  Leave null to auto-detect via `adb devices`.
+device_udid: null
+
+# Target app
+app_package: "co.hinge.app"
+app_activity: "co.hinge.app.MainActivity"
+
+# Appium driver settings
+automation_name: "UiAutomator2"
+platform_name: "Android"
+
+# UI locale, controls which selector set is used.
+# Supported locales are registered in src/hinge_bot/selectors.py.
+# Currently: pt-PT, en-US. See the module docstring to add more.
+locale: "pt-PT"
+
+# ── Timeouts (seconds) ────────────────────────────────────────────────────────
+timeouts:
+  implicit: 5        # driver-level implicit wait for every find_element call
+  explicit: 10       # WebDriverWait timeout per element lookup
+  page_load: 30      # Appium page-load timeout
+  new_command: 60    # max seconds between commands before session is killed
+
+# ── Wait ranges (seconds) ─────────────────────────────────────────────────────
+# Used as random.uniform(low, high) to let the UI settle between actions.
+# These are stability waits, not evasion tactics.
+wait_ranges:
+  short:  [0.5, 1.5]
+  medium: [1.5, 3.0]
+  long:   [3.0, 5.0]

@@ -1,0 +1,8 @@
+# ─── Profile: MEmu Android Emulator (Windows) ────────────────────────────────
+#
+# Use with: hinge-bot run --profile memu
+#
+# MEmu exposes ADB on a fixed TCP port.  The default port is 21503.
+# If you use multiple MEmu instances, pass the correct port via --udid.
+
+device_udid: "127.0.0.1:21503"

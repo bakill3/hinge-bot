@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hinge-bot"
+version = "0.1.0"
+description = "Cross-platform Hinge automation bot (Appium + Python)"
+requires-python = ">=3.10"
+dependencies = [
+    "appium-python-client>=3.1",
+    "selenium>=4.0",
+    # Config loading
+    "pyyaml>=6.0",          # YAML profile parsing
+    "python-dotenv>=1.0",   # Optional: load .env for environment overrides
+]
+
+[project.scripts]
+hinge-bot = "hinge_bot.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
